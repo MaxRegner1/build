@@ -1,4 +1,4 @@
-FROM ubuntu:21.04
+FROM ubuntu:devel
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y install \
        joe \
