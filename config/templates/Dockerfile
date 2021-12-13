@@ -1,4 +1,4 @@
-FROM ubuntu:21.04
+FROM ubuntu:impish-20210928
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y install \
        joe \
